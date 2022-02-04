@@ -1,4 +1,4 @@
-#Goal
+# Goal
 Use the standard Apify SDK to develop a simple web crawler that downloads all the product pages from a German supermarket called Edeka.
 The key outcomes of should be:
 ● The crawler should run locally on your machine as a Node.js based CLI application
