@@ -1,16 +1,16 @@
 # Goal
 Use the standard Apify SDK to develop a simple web crawler that downloads all the product pages from a German supermarket called Edeka.
 The key outcomes of should be:
-● The crawler should run locally on your machine as a Node.js based CLI application
-● The crawler should not use a browser (please base it on Apify's CheerioCrawler)
-● The site to crawl is: https://www.edeka24.de
-● The crawler should find and download every product page available on the site (here
+*The crawler should run locally on your machine as a Node.js based CLI application
+* The crawler should not use a browser (please base it on Apify's CheerioCrawler)
+* The site to crawl is: https://www.edeka24.de
+* The crawler should find and download every product page available on the site (here
 is an example of one:
 https://www.edeka24.de/Wein/Sekt-Prosecco/Deutschland/Kessler-Sekt-Hochgewae
 chs-Chardonnay-Brut-0-75L.html)
-● All product pages found by your crawler should be saved locally to disk in a
+* All product pages found by your crawler should be saved locally to disk in a
 dedicated Apify KeyValueStore named "product-pages"
-● Resources that are not product pages (e.g. the home page) can be downloaded but if
+* Resources that are not product pages (e.g. the home page) can be downloaded but if
 you do so, these should be stored in a separate Apify KeyValueStore
  
 # Run the application
